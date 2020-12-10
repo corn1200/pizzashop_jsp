@@ -5,9 +5,12 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="css/css.css">
 </head>
 <body>
+	<%@ include file="static/header.jsp" %>
 	<%@ include file="static/nav.jsp" %>
+	
 	<% 
 		String parameter = request.getParameter("section") == null ? "" : request.getParameter("section");
 		
@@ -29,5 +32,7 @@
 				break;
 		}
 	%>
+	
+	<%@ include file="static/footer.jsp" %>
 </body>
 </html>
