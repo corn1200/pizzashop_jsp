@@ -1,12 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
 <script type="text/javascript">
 function submit_form() {
 	if (document.input_form.saleno.value === "") {
@@ -41,7 +35,6 @@ function reset_form() {
 	document.input_form.reset();
 }
 </script>
-<body>
 <h3 style="text-align: center; ">매출전표등록</h3>
 	<form action="action/action_insert_sales_slip.jsp" method="post" name="input_form">
 		<table border="1">
@@ -96,5 +89,3 @@ function reset_form() {
 			</tr>
 		</table>
 	</form>
-</body>
-</html>

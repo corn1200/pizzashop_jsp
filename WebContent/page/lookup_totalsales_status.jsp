@@ -3,12 +3,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="java.sql.*" %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-</head>
-<body>
 <h3 style="text-align: center; ">통합매출현황조회</h3>
 	<table border="1">
 		<tr>
@@ -63,5 +57,3 @@
 			}
 		%>
 	</table>
-</body>
-</html>
