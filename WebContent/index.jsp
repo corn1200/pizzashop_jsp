@@ -27,6 +27,12 @@
 			case "lookup_productsales_status" :
 				%><%@ include file="page/lookup_productsales_status.jsp" %><%
 				break;
+			case "insert_user" :
+				%><%@ include file="page/insert_user.jsp" %><%
+				break;
+			case "lookup_chatting" :
+				%><%@ include file="page/lookup_chatting.jsp" %><%
+				break;
 			default :
 				%><%@ include file="static/index.jsp" %><%
 				break;

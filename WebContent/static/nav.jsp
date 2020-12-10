@@ -6,6 +6,8 @@
 		<li><a href="index.jsp?section=lookup_totalsales_status">통합매출조회</a></li>
 		<li><a href="index.jsp?section=lookup_shopsales_status">지점별매출현황</a></li>
 		<li><a href="index.jsp?section=lookup_productsales_status">상품별매출현황</a></li>
+		<li><a href="index.jsp?section=insert_user">유저 등록</a></li>
+		<li><a href="index.jsp?section=lookup_chatting">채팅 내역</a></li>
 		<li><a href="index.jsp">홈으로</a></li>
 	</ul>
 </nav>
